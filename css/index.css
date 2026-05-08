@@ -1,0 +1,26 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+img {
+    max-width: 200px;
+    grid-column: 1fr;
+    justify-content: center;
+}
+.about {
+    max-width: 400px;
+    grid-column: 2fr;
+    margin: 1em;
+}
+@media screen and (max-width: 800px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+    .about {
+        max-width: 700px;
+        justify-content: center;
+    }
+    img {
+        margin-left: 3em;
+    }
+}
