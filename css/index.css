@@ -12,6 +12,10 @@ img {
     grid-column: 2fr;
     margin: 1em;
 }
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 @media screen and (max-width: 800px) {
     main {
         grid-template-columns: 1fr;
@@ -22,5 +26,8 @@ img {
     }
     img {
         margin-left: 3em;
+    }
+    .projects {
+        grid-template-columns: 1fr;
     }
 }
