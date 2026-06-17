@@ -1,6 +1,6 @@
 "use strict"
 const repos = [];
-const ul_projects = document.querySelector(".projects"); 
+const ul_projects = document.querySelector(".projects-script"); 
 
 const username = 'cooperdozier'; 
 const url = `https://api.github.com/users/${username}/repos`;

@@ -17,6 +17,9 @@ img {
     grid-template-columns: 1fr 1fr;
     gap: 16px;
 }
+.grid-section {
+    grid-auto-columns: 1fr;
+}
 @media screen and (max-width: 800px) {
     .index-main {
         grid-template-columns: 1fr;
