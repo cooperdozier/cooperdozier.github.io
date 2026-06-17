@@ -1,4 +1,4 @@
-main {
+.index-main {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
 }
@@ -15,9 +15,10 @@ img {
 .projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 16px;
 }
 @media screen and (max-width: 800px) {
-    main {
+    .index-main {
         grid-template-columns: 1fr;
     }
     .about {
